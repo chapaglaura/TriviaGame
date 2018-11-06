@@ -1,0 +1,57 @@
+body {
+    min-height: 100vh;
+    background-image: url(../images/disney-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h1, h2, h3 {
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+.main-container {
+    position: absolute;
+    left: 0;
+    top: 10%;
+    right: 0;
+    bottom: 10%;
+    background-color: floralwhite;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    font-size: 6em;
+}
+
+.button-container, .questions-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.questions-container .row {
+    width: 60%;
+}
+
+#start {
+    width: 50%;
+}
+
+.answer {
+    width: 100%;
+    margin: 10px;
+}
+
+.feedback img {
+    max-width: 100%;
+}

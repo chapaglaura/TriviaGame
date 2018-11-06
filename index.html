@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Mouse+Memoirs" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container main-container">
+
+        <h1 class="title">Disney's Dazzling Definitions!</h1>
+        <div class="button-container">
+            <button id="start" type="button" class="btn btn-success">START</button>
+        </div>
+        <div class="container questions-container hide">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="time">Time Remaining: <span class="seconds"></span> Seconds</p>
+                    <p class="question"></p>
+                </div>
+
+            </div>
+
+            <div class="row options">
+                <div class="col-md-6">
+                    <button id="a1" type="button" class="answer btn btn-warning"></button>
+                </div>
+                <div class="col-md-6">
+                    <button id="a2" type="button" class="answer btn btn-warning"></button>
+                </div>
+                <div class="w-100"></div>
+                <div class="col-md-6">
+                    <button id="a3" type="button" class="answer btn btn-warning"></button>
+                </div>
+                <div class="col-md-6">
+                    <button id="a4" type="button" class="answer btn btn-warning"></button>
+                </div>
+            </div>
+
+            <div class="row feedback hide">
+                <div class="col-md-12">
+                    <h2><span class="check"></span>!</h2>
+                    <br>
+                    <p class="correct">The correct answer was: <span class="correct-answer">.</span></p>
+                    <img src="" />
+                </div>
+            </div>
+
+            <div class="row results hide">
+                <h2>All done, here's how you did!</h2>
+                <p>Correct answers: <span class="correct-points"></span></p>
+                <p>Incorrect answers: <span class="incorrect-points"></span></p>
+                <p>Unanswered: <span class="unanswered-points"></span></p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
