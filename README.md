@@ -12,4 +12,4 @@ All you can know and know can you all of this Disney’s Movie Trivia! From some
 
 4. Every time you answer correctly, your correct score will increment. But consider that every time your time is up or you answer incorrectly, your wrong score will increment, too.
 
-##Good luck!
+## Good luck!
